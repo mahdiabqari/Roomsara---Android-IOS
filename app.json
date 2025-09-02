@@ -1,28 +1,62 @@
 {
   "expo": {
-    "name": "damnpro",
-    "slug": "damnpro",
-    "version": "1.0.0",
+    "name": "روم ســرا",
+    "slug": "MyProject",
+    "version": "1.1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+    "scheme": "com.mahdiabqari.myapp",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mahdiabqari.myapp"
     },
     "android": {
+      "permissions": [
+        "INTERNET"
+      ],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mahdiabqari.myapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3f995eb-608b-4a83-8cf7-4c86d01bf13e"
+      }
+        },
+    "owner": "mahdiabqari",
+    "plugins": [
+      "expo-build-properties",
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logo.png",
+          "color": "#1a1a2e",
+          "sounds": ["./assets/sounds/receive.mp3"],
+          "fonts": [
+            "./assets/fonts/Vazir.ttf",
+            "./assets/fonts/Vazir-Bold.ttf"
+          ]
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e3f995eb-608b-4a83-8cf7-4c86d01bf13e"
     }
   }
 }
