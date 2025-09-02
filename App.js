@@ -25,9 +25,8 @@ import HomePage from "./components/pages/Home";
 import { Ionicons } from "@expo/vector-icons";
 
 //const API_URL = "http://10.0.2.2:3000";
-//const API_URL = "https://roomsaraservernet.liara.run";
 
-const API_URL = "https://roomsaraservernet.liara.run";
+const API_URL = "";
 const App = () => {
   I18nManager.allowRTL(false);
   I18nManager.forceRTL(false);

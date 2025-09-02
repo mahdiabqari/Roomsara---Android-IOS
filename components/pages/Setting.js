@@ -20,7 +20,7 @@ import { Ionicons } from "@expo/vector-icons";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as ImagePicker from "expo-image-picker";
 
-const API_URL = "https://roomsaraservernet.liara.run";
+const API_URL = "";
 const Setting = ({
   me,
   userId,

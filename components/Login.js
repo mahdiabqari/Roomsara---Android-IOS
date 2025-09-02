@@ -20,7 +20,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { MaterialIcons, FontAwesome5 } from "@expo/vector-icons";
 import OnboardingScreen from "./../components/----/OnboardingScreen";
 
-const API_URL = "https://roomsaraservernet.liara.run";
+const API_URL = "";
 
 const Login = ({
   setAuthorazation,

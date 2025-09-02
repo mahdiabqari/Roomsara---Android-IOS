@@ -26,7 +26,7 @@ import {
 import { LinearGradient } from "expo-linear-gradient";
 import RoomLinkModal from "./../----/RoomLinkModal";
 import { Ionicons } from "@expo/vector-icons";
-const API_URL = "https://roomsaraservernet.liara.run";
+const API_URL = "";
 const windowHeight = 500;
 
 const HomePage = ({

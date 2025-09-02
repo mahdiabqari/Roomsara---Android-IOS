@@ -12,7 +12,7 @@ import {
 import { LinearGradient } from "expo-linear-gradient";
 
 const RoomLinkModal = ({ visible, roomId, onClose }) => {
-  const roomUrl = `https://roomsara.liara.run/Room/${roomId}`;
+  const roomUrl = `https:///Room/${roomId}`;
 
   const handleCopyLink = () => {
     Clipboard.setString(roomUrl);

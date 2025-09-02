@@ -7,7 +7,7 @@
     "icon": "./assets/logo.png",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
-    "scheme": "com.mahdiabqari.myapp",
+    "scheme": "",
     "splash": {
       "image": "./assets/logo.png",
       "resizeMode": "contain",
@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mahdiabqari.myapp"
+      "bundleIdentifier": ""
     },
     "android": {
       "permissions": [
@@ -25,14 +25,14 @@
         "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mahdiabqari.myapp"
+      "package": ""
     },
     "web": {
       "favicon": "./assets/logo.png"
     },
     "extra": {
       "eas": {
-        "projectId": "e3f995eb-608b-4a83-8cf7-4c86d01bf13e"
+        "projectId": ""
       }
         },
     "owner": "mahdiabqari",
@@ -56,7 +56,7 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/e3f995eb-608b-4a83-8cf7-4c86d01bf13e"
+      "url": ""
     }
   }
 }

@@ -18,7 +18,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { MaterialIcons, Feather } from "@expo/vector-icons";
 
 const { width, height } = Dimensions.get("window");
-const API_URL = "https://roomsaraservernet.liara.run";
+const API_URL = "";
 
 const SignUp = ({ setAuthorazation, setSignIn, setUserId, setAuth }) => {
   const [step, setStep] = useState(1);

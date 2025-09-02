@@ -39,7 +39,7 @@ import Notes from "../----/Notes";
 
 const screenHeight = Dimensions.get("window").height;
 
-const API_URL = "https://roomsaraservernet.liara.run";
+const API_URL = "";
 const { width: screenWidth, height } = Dimensions.get("window"); // عرض صفحه
 
 const Chat = ({
